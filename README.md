@@ -1,0 +1,2 @@
+# masteringCodeDemo
+I'm looking for my first software development position. I've been interning as a software developer for over 9 months and my internship is coming to an end. To demonstrate my competency, I'm going to try to reproduce at least 1 lesson a day from https://www.linkedin.com/learning/mastering-web-developer-interview-code?u=42275329 which can also be found here: https://github.com/planetoftheweb/masteringcode 
