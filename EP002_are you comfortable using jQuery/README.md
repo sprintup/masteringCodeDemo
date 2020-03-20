@@ -17,3 +17,4 @@
  - Ok so I initilized a new npm project with [express](http://expressjs.com/en/starter/hello-world.html) in the root directory to use the server throughout the rest of the challenges
 - using snippet from article to [set up proxy](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9)
 - I moved data out of project into root directory so as to not duplicate data across challenges
+- [ ] figure out how to run debugger in vscode

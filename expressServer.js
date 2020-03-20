@@ -8,7 +8,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
+app.get('/artists', (req, res) => {
     //res.send('hello world');
     //console.log('artists',artists);
     res.json(artists);

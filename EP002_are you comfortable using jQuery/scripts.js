@@ -3,7 +3,7 @@ $(function(){
     $('.load-info').on('click', function(){
         $.ajax({
             method: 'GET',
-            url: 'data_artists.json',
+            url: 'http://localhost:3000/artists',
             dataType: 'json'
         }).done(function(data){
             $.each(data.artists, function(key, val){
