@@ -10,3 +10,6 @@ I'm looking for my first software development position. I've been interning as a
   - complete different lessons in project in separate commits
   - reproduce the feature from planetoftheweb/masteringcode in this repos related feature branch
 - merge feature branch into master and push to remote
+
+## Onlookers
+Feel free to look at [commits](https://github.com/sprintup/masteringCodeDemo/commits/master) or the related feature's readme to see notes and successes as I work through these challenges. 

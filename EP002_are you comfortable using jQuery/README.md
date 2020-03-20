@@ -1,2 +1,5 @@
 - [ ] practice traditional AJAX requests with fetch API, promises, old xml http request method
     - [ ] be comfortable with jQuery's access to these features
+- included full jQuery for AJAX stuff
+- just figured out that EP001 did not map to the first episode and the files for that episode were in yesterday's directory
+- I'm just going to keep everything in a flat directory structure to avoid complications with relative directory bugs
