@@ -22,3 +22,7 @@ body {
   background-color: hsl(175, 49%, 42%);
   position: relative;
 }
+
+.tooltip::before {
+  content: attr(data-tooltip);
+}
