@@ -10,7 +10,8 @@ app.use((req, res, next) => {
 
 app.get('/', (req, res) => {
     //res.send('hello world');
-    res.json(JSON.parse(artists));
+    //console.log('artists',artists);
+    res.json(artists);
 });
 
 const PORT = process.env.PORT || 3000;
