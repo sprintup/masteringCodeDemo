@@ -13,3 +13,6 @@ I'm looking for my first software development position. I've been interning as a
 
 ## Onlookers
 Feel free to look at [commits](https://github.com/sprintup/masteringCodeDemo/commits/master) or the related feature's readme to see notes and successes as I work through these challenges. 
+
+### Commands
+- `node expressServer.js`

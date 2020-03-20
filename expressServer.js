@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+var artists = require('./data_artists.json');
+//import artists from ('data_artists.json');
 
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -7,7 +9,8 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('hello world');
+    //res.send('hello world');
+    res.json(JSON.parse(artists));
 });
 
 const PORT = process.env.PORT || 3000;
