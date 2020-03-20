@@ -1,0 +1,22 @@
+{
+  "name": "masteringcodedemo",
+  "version": "1.0.0",
+  "description": "I'm looking for my first software development position. I've been interning as a software developer for over 9 months and my internship is coming to an end. To demonstrate my competency, I'm going to try to reproduce at least 1 lesson a day from https://www.linkedin.com/learning/mastering-web-developer-interview-code?u=42275329 which can also be found at the Planet of the Web(POW) Repo : https://github.com/planetoftheweb/masteringcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprintup/masteringCodeDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sprintup/masteringCodeDemo/issues"
+  },
+  "homepage": "https://github.com/sprintup/masteringCodeDemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
