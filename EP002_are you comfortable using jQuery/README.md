@@ -1,0 +1,2 @@
+- [ ] practice traditional AJAX requests with fetch API, promises, old xml http request method
+    - [ ] be comfortable with jQuery's access to these features
