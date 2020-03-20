@@ -31,12 +31,26 @@ body {
   position: absolute;
   background: hsla(45, 82%, 64%, .9);
   content: attr(data-tooltip);
-  top: 100%;
+  top: -100%;
   left: 0;
   display: none;
 }
 
 .tooltip:hover::before {
   display: block;
-  
+}
+
+.tooltip[data-position='right']::before {
+  top: 0%;
+  left: 100%;
+}
+
+.tooltip[data-position='bottom']::before {
+  top: 100%;
+  left: 0%;
+}
+
+.tooltip[data-position='left']::before {
+  top: 0%;
+  left: -100%;
 }
