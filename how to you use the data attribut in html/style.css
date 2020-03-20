@@ -33,4 +33,10 @@ body {
   content: attr(data-tooltip);
   top: 100%;
   left: 0;
+  display: none;
+}
+
+.tooltip:hover::before {
+  display: block;
+  
 }
