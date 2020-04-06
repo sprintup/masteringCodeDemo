@@ -1,7 +1,7 @@
 # masteringCodeDemo
 A repo that helps demonstrate skills that web developer interviewers look for as per https://github.com/planetoftheweb/masteringcode 
 
-## My daily process will be:
+## My process will be:
 - checkout a new feature branch in this repo, by the name of the feature from the planetoftheweb/masteeringcode repo
 - in the new branch, create a new folder by the name of the feature to be demonstrated with related readme.md including prefix
   - create feature readme
