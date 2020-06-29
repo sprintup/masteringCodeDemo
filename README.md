@@ -1,5 +1,5 @@
 # masteringCodeDemo
-I'm looking for my first software development position. I've been interning as a software developer for over 9 months and my internship is coming to an end. To demonstrate my competency, I'm going to try to reproduce at least 1 lesson a day from https://www.linkedin.com/learning/mastering-web-developer-interview-code?u=42275329 which can also be found at the Planet of the Web(POW) Repo : https://github.com/planetoftheweb/masteringcode
+A repo that helps demonstrate skills that web developer interviewers look for as per https://github.com/planetoftheweb/masteringcode 
 
 ## My daily process will be:
 1. create a local branch for the feature being discussed in the [planetoftheweb/masteringcode](https://github.com/planetoftheweb/masteringcode) local repo (directory 'masteringcode') using `git branch <branch-name> origin/<branch-name>`
