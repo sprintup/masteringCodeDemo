@@ -1,0 +1,2 @@
+- I created a html file to run the scripts using the browser instead of running `node script.js` because the 'this' keyword binds to the window object. The video uses [Js Bin](https://jsbin.com/?html,output), which is an online code editor.
+- [MDN on Function.prototype.bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind);
