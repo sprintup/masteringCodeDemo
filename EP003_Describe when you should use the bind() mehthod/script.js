@@ -146,10 +146,13 @@ const nestedObject = {
     zap : function(){console.log('zap!')},
     count : 1000
 }
+windowService.nestedObject = nestedObject; // ultimately 'nested object' is relative and it's really just OOP
 var wrapperContext = {
     windowLevel : window, // count in 10s
     objectLevel : windowService, // count in 100s
     nestedObjectLevel : nestedObject // count in 1000s
 }
-var newWrapperLevelFunction = windowService.log.bind(wrapperContext.nestedObjectLevel); //switch from windowLevel, objectLevel, nestedObjectLevel to see the differences in count
+var newWrapperLevelFunction = windowService.log.bind(windowService.nestedObject); //switch from windowLevel, objectLevel, nestedObjectLevel to see the differences in count
 newWrapperLevelFunction(); // undefined " service:" 1000
+
+// Summary, whatever object you pass as the context will be used to hydrate the property values of the function you're calling bind on. 
